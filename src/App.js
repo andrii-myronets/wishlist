@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Grid } from '@material-ui/core';
+import Wishlist from './Wishlist/components/Wishlist';
+import MenuBookRoundedIcon from '@material-ui/icons/MenuBookRounded';
+import CopyrightRoundedIcon from '@material-ui/icons/CopyrightRounded';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <MenuBookRoundedIcon color="primary" style={{ fontSize: 60 }} />
       </header>
-    </div>
+      <Grid
+        container
+        direction="column"
+        justify="center"
+        alignItems="center"
+      >
+        <Wishlist />
+      </Grid>
+      <footer>
+        <CopyrightRoundedIcon fontSize="small" />Myronets test task 2021
+      </footer>
+    </>
   );
 }
 

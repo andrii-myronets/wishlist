@@ -1,0 +1,55 @@
+{
+	"status": 200,
+	"list": [{
+		"id": "id-1",
+		"name": "I Feel Bad About My Neck",
+		"avatar": "https://files6.adme.ru/files/news/part_141/1412415/19851465-2-0-1480944284-1480944292-650-15dfda3e3d-1-1481025275.jpg",
+		"author": {
+			"firstName": "Zeus",
+			"lastName": "Justice",
+			"avatar": "https://img.yakaboo.ua/media/entity/author/cache/1/image/228x300/234c7c011ba026e66d29567e1be1d1f7/m/a/mark-manson-headshot-2018-1.jpg"
+		}
+	},
+  {
+		"id": "id-2",
+		"name": "Broken Glass",
+		"avatar": "https://cs8.pikabu.ru/post_img/2016/01/25/9/1453735626153314127.jpg",
+		"author": {
+			"firstName": "Jordan",
+			"lastName": "Shelton",
+			"avatar": "https://static.kulturologia.ru/files/u8921/alan_mur.jpg"
+		}
+	},
+  {
+		"id": "id-3",
+		"name": "The Girl With the Dragon Tattoo",
+		"avatar": "https://cs8.pikabu.ru/post_img/2016/03/30/1/1459294622148463548.jpg",
+		"author": {
+			"firstName": "Colt",
+			"lastName": "Oliver",
+			"avatar": "https://slon.fr/wp-content/uploads/2020/01/2-35.jpg"
+		}
+	},
+  {
+		"id": "id-4",
+		"name": "A Little Life",
+		"avatar": "https://www.mann-ivanov-ferber.ru/assets/images/books-new/blueoceanstrategy/blueoceanstrategy-big.png",
+		"author": {
+			"firstName": "Neil",
+			"lastName": "Cameron",
+			"avatar": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/12036076/image/1276f6877231c6ceaa066c27a93eb0a3"
+		}
+	},
+  {
+		"id": "id-5",
+		"name": "Chronicles: Volume One",
+		"avatar": "https://www.mann-ivanov-ferber.ru/assets/images/books-new/golaya-statistika/golaya-statistika-big.png",
+		"author": {
+			"firstName": "Adam",
+			"lastName": "Higgins",
+			"avatar": "https://s00.yaplakal.com/pics/pics_original/4/7/5/9388574.jpg"
+		}
+	}
+],
+	"total": 5
+}
